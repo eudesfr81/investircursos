@@ -14,21 +14,21 @@ body {
 
 header {
     max-height: 215px;
-    max-width: 350px;
+    max-width: 380px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 0;
 }
 
 .circulo {
-    height: 90px;
+    height: 95px;
     width: 104px;
     border-radius: 50%;
     border: 1px solid white;
     position: relative;
-    padding: 0 0;
-    bottom: 247px;
-    left: 122px;
+    bottom: 250px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #000000;
 }
 
@@ -36,26 +36,27 @@ header {
     height: 150px;
     width: 300px;
     position: relative;
-    padding: 0 0;
     z-index: 4;
-    bottom: 92px;
-    left: 123px;
+    bottom: 91px;
+    left: 140px;
     background-image: url('logo2.png');
     background-repeat: no-repeat;
-    background-size: 105px 70px;
+    background-size: 100px 70px;
     
 }
 
 .wallpapper {
     height: 200px;
-    width: 350px;
+    width: 380px;
     position: relative;
     padding: 0 0;
     bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url('candlestick1.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 320px 150px;
+    background-size: 360px 150px;
   }
 
 .description {
@@ -69,34 +70,37 @@ header {
 
 #legenda {
     height: 105px;
-    width: 300px;
+    width: 380px;
     position: relative;
-    padding: 0 0;
+    bottom: 5px;
     margin-left: auto;
     margin-right: auto;
+    background-position: center;
     background-image: url('profissao2.jpg');
     background-repeat: no-repeat;
-    background-size: 300px 100px;
+    background-size: 360px 100px;
 }
 
 #informacoes {
-    max-width: 300px;;
+    max-width: 360px;;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
     
 }
 
 h2 {
     color: white;
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
     background-color: #ec5c2a;
     padding: 8px 16px;
 }
 
 h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
     margin-bottom: 8px;
     color: white;
 }
@@ -106,20 +110,13 @@ ul {
 }
 
 ul li {
-    margin-top: 16px;
+    margin-bottom: 8px;
+    margin-top: 12px;
     display: flex;
 }
 
 .details {
-    max-width: 300px;
-    
-}
-
-
-#icones {
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 360px;
     
 }
 
@@ -127,28 +124,29 @@ ul li {
     height: 150px;
   }
   
-  .redes-sociais h2 {
+.redes-sociais h2 {
     margin-top: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
   }
   
-  .redes-sociais nav {
+.redes-sociais nav {
     display: flex;
     flex-direction: column;
   }
   
-  .redes-sociais nav a {
+.redes-sociais nav a {
     margin-top: 10px;
     color: #ffffff;
     text-decoration: none;
     transition: filter 0.2s;
+    text-align: center;
   }
   
-  .redes-sociais nav a:hover {
+.redes-sociais nav a:hover {
     filter: brightness(2.0);
   }
   
-  .redes-sociais nav a i {
+.redes-sociais nav a i {
     margin-right: 8px;
   }
 
