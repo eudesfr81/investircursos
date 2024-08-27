@@ -13,8 +13,8 @@ body {
 }
 
 header {
-    max-height: 215px;
-    max-width: 380px;
+    max-height: 200px;
+    max-width: 300px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 0;
@@ -29,7 +29,8 @@ header {
     bottom: 250px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #000000;
+    background-position: center;
+    background-color: #141414;
 }
 
 .logo {
@@ -37,17 +38,17 @@ header {
     width: 300px;
     position: relative;
     z-index: 4;
-    bottom: 91px;
-    left: 140px;
+    bottom: 130px;
+    background-position: center;
     background-image: url('logo2.png');
     background-repeat: no-repeat;
-    background-size: 100px 70px;
+    background-size: 90px 60px;
     
 }
 
 .wallpapper {
     height: 200px;
-    width: 380px;
+    width: 320px;
     position: relative;
     padding: 0 0;
     bottom: 25px;
@@ -56,33 +57,33 @@ header {
     background-image: url('candlestick1.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 360px 150px;
+    background-size: 320px 150px;
   }
+
+#legenda {
+    height: 105px;
+    width: 320px;
+    position: relative;
+    top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    background-image: url('profissao2.jpg');
+    background-repeat: no-repeat;
+    background-size: 320px 100px;
+}
 
 .description {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 14px;
     text-align: justify;
     color: #b45f06;
-    line-height: 20px;
-    margin-bottom: 8px;
-}
-
-#legenda {
-    height: 105px;
-    width: 380px;
-    position: relative;
-    bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    background-position: center;
-    background-image: url('profissao2.jpg');
-    background-repeat: no-repeat;
-    background-size: 360px 100px;
+    line-height: 18px;
+    margin-top: 8px;
 }
 
 #informacoes {
-    max-width: 360px;;
+    max-width: 320px;;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 16px;
@@ -116,7 +117,7 @@ ul li {
 }
 
 .details {
-    max-width: 360px;
+    max-width: 320px;
     
 }
 
